@@ -1,4 +1,4 @@
-<!DOCTYPE html><html  lang="en"><head><title data-rh="true"></title><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1.00001,viewport-fit=cover"/><style id="expo-reset">#root,body,html{height:100%}body{overflow:hidden}#root{display:flex}</style><style>
+<!DOCTYPE html><html  lang="en"><head><title data-rh="true"></title><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>心源六爻</title><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1.00001,viewport-fit=cover"/><style id="expo-reset">#root,body,html{height:100%}body{overflow:hidden}#root{display:flex}</style><style>
 body {
   background-color: #fff;
 }
@@ -39,7 +39,9 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-d23pfw{padding:24px;}
 .r-edyy15{padding:8px;}
 .r-fx7oqy{border-bottom-color:rgba(0,0,255,1.00);border-left-color:rgba(0,0,255,1.00);border-right-color:rgba(0,0,255,1.00);border-top-color:rgba(0,0,255,1.00);}
+.r-hvic4v{display:none;}
 .r-krxsd3{display:-webkit-box;}
+.r-qwd59z{border-bottom-left-radius:1px;border-bottom-right-radius:1px;border-top-left-radius:1px;border-top-right-radius:1px;}
 .r-rs99b7{border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-top-width:1px;}
 .r-t60dpp{padding:0px;}
 .r-xoduu5{display:inline-flex;}
@@ -47,12 +49,16 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-z2wwpe{border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px;}
 [stylesheet-group="2.1"]{}
 .r-11f147o{padding-bottom:8px;padding-top:8px;}
+.r-11gswi8{padding-left:3px;padding-right:3px;}
+.r-17q4wm6{margin-left:5px;margin-right:5px;}
 .r-184id4b{margin-bottom:12px;margin-top:12px;}
 .r-1d7mnkm{padding-bottom:15px;padding-top:15px;}
 .r-1mmae3n{padding-bottom:12px;padding-top:12px;}
+.r-1ntr0p{padding-left:5px;padding-right:5px;}
 .r-1xpp3t0{margin-left:16px;margin-right:16px;}
 .r-3o4zer{padding-left:12px;padding-right:12px;}
 .r-cxgwc0{padding-left:24px;padding-right:24px;}
+.r-is05cd{padding-left:8px;padding-right:8px;}
 .r-jdiy1a{margin-left:11px;margin-right:11px;}
 .r-n5f61p{margin-bottom:3px;margin-top:3px;}
 .r-n7gxbd{padding-left:4px;padding-right:4px;}
@@ -86,10 +92,12 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-173mzie{transform:scaleY(-1);}
 .r-1777fci{justify-content:center;}
 .r-17bb2tj{animation-duration:0.75s;}
+.r-17hmhgr{transform:rotate(45deg);}
 .r-17leim2{background-repeat:repeat;}
 .r-17s6mgv{justify-content:flex-end;}
 .r-18u1ve8{color:rgba(255,255,255,0.40);}
 .r-18u37iz{flex-direction:row;}
+.r-199wky7{width:30px;}
 .r-19h5ruw{margin-top:15px;}
 .r-19qrga8{margin-top:3px;}
 .r-19wmn03{width:20px;}
@@ -97,7 +105,9 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-1a2p6p6{-webkit-text-decoration-style:solid;text-decoration-style:solid;}
 .r-1abnn5w{animation-play-state:paused;}
 .r-1acpoxo{width:36px;}
+.r-1aiqnjv{font-family:monospace,monospace;}
 .r-1awozwy{align-items:center;}
+.r-1ax5ac2{transform:rotate(-45deg);}
 .r-1ay1djp{animation-duration:1s;}
 .r-1b43r93{font-size:14px;}
 .r-1c6unfx{forced-color-adjust:none;}
@@ -111,6 +121,8 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-1euycsn{flex-direction:row-reverse;}
 .r-1ewcgjf{box-shadow:0px 1px 3px rgba(0,0,0,0.5);}
 .r-1ff274t{text-align:right;}
+.r-1ffj0ar{background-color:rgba(0,0,0,0.40);}
+.r-1g7fiml{height:30px;}
 .r-1g80hic{opacity:0.8;}
 .r-1h0z5md{justify-content:flex-start;}
 .r-1habvwh{align-items:flex-start;}
@@ -124,6 +136,7 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-1janqcz{width:16px;}
 .r-1jkjb{margin-left:8px;}
 .r-1joea0r{margin-left:20px;}
+.r-1kb76zh{margin-right:8px;}
 .r-1kfrs79{font-weight:600;}
 .r-1kihuf0{align-self:center;}
 .r-1ldzwu0{animation-timing-function:linear;}
@@ -145,14 +158,17 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-1r74h94{left:8px;}
 .r-1r8g8re{height:36px;}
 .r-1rnoaur{overflow-y:auto;}
+.r-1sg8ghl{z-index:1000;}
 .r-1sxrcry{background-size:auto;}
 .r-1udbk01{text-overflow:ellipsis;}
 .r-1ui5ee8{font-size:32px;}
 .r-1uxf3jb{min-width:25px;}
 .r-1uypc71{animation-timing-function:ease-in;}
 .r-1ve781c{top:7px;}
+.r-1w6e6rj{flex-wrap:wrap;}
 .r-1wbh5a2{flex-shrink:1;}
 .r-1wrzk55{margin-left:-14.5px;}
+.r-1wtj0ep{justify-content:space-between;}
 .r-1wyyakw{z-index:-1;}
 .r-1xcajam{position:fixed;}
 .r-1xnzce8{-moz-user-select:text;-webkit-user-select:text;user-select:text;}
@@ -181,6 +197,7 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-7q8q6z{cursor:default;}
 .r-8akbws{-webkit-box-orient:vertical;}
 .r-97e31f{padding-bottom:env(safe-area-inset-bottom);}
+.r-a023e6{font-size:15px;}
 .r-adyw6z{font-size:20px;}
 .r-agouwx{transform:translateZ(0);}
 .r-ah5dr5>*{pointer-events:none;}
@@ -191,11 +208,13 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-c68hjy{color:rgba(161,161,161,1.00);}
 .r-cpa5s6{scroll-snap-align:start;}
 .r-cqee49{color:rgba(0,0,0,1.00);}
+.r-d7397y{left:-0.5px;}
 .r-dkge59{background-color:rgba(170,184,194,1.00);}
 .r-dnmrzs{max-width:100%;}
 .r-eafdt9{transition-duration:0.15s;}
 .r-ebwn4k{animation-name:r-q67da2;}
 .r-ehq7j7{background-size:contain;}
+.r-epq5cr{height:2px;}
 .r-eqz5dr{flex-direction:column;}
 .r-fdjqy7{text-align:left;}
 .r-g3mlsw{animation-name:r-t2lo5v;}
@@ -207,6 +226,7 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-jwli3a{color:rgba(255,255,255,1.00);}
 .r-k200y{align-self:flex-start;}
 .r-kemksi{background-color:rgba(0,0,0,1.00);}
+.r-kf5qoz{left:-5.5px;}
 .r-kzbkwu{padding-bottom:12px;}
 .r-l4djrs{left:3px;}
 .r-lltvgl{overflow-x:auto;}
@@ -230,6 +250,8 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-u8s1d{position:absolute;}
 .r-u92y06{background-color:rgba(255,165,0,1.00);}
 .r-ubezar{font-size:16px;}
+.r-uoibet{transform:rotate(180deg);}
+.r-ur6pnr{height:42px;}
 .r-van48c{caret-color:transparent;}
 .r-vvn4in{background-position:center;}
 .r-vw2c0b{font-weight:bold;}
@@ -250,5 +272,5 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 @keyframes r-1pzkwqh{0%{transform:translateY(100%);}100%{transform:translateY(0%);}}
 @keyframes r-imtty0{0%{opacity:0;}100%{opacity:1;}}
 @keyframes r-q67da2{0%{transform:translateX(-100%);}100%{transform:translateX(400%);}}
-@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><link rel="preload" href="/liu-yao/_expo/static/css/apptabsallguatsx-59b88459e0be57929c4560711ab403c7.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apptabsallguatsx-59b88459e0be57929c4560711ab403c7.css"><link rel="preload" href="/liu-yao/_expo/static/css/apptabscalendartsx-d78bd118936d5cac4205186c5f4462fc.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apptabscalendartsx-d78bd118936d5cac4205186c5f4462fc.css"><link rel="preload" href="/liu-yao/_expo/static/css/apptabsclocktsx-e474a8cb017cb6e4817b39ba406f9639.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apptabsclocktsx-e474a8cb017cb6e4817b39ba406f9639.css"><link rel="preload" href="/liu-yao/_expo/static/css/componentsSelectYaotsx-bdd6d5e6dd6fd872708a859e0e3235f9.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/componentsSelectYaotsx-bdd6d5e6dd6fd872708a859e0e3235f9.css"><link rel="preload" href="/liu-yao/_expo/static/css/componentsSelectGuaBottomSheettsx-4c25cc1a652373a3b8ae4f60091caa94.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/componentsSelectGuaBottomSheettsx-4c25cc1a652373a3b8ae4f60091caa94.css"><link rel="preload" href="/liu-yao/_expo/static/css/apptabsindextsx-ee711dc2055d3c62a08311f9e632f21e.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apptabsindextsx-ee711dc2055d3c62a08311f9e632f21e.css"><link rel="preload" href="/liu-yao/_expo/static/css/apptabssongstsx-500206f281dea892b6587a1545b8ce4d.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apptabssongstsx-500206f281dea892b6587a1545b8ce4d.css"><link rel="preload" href="/liu-yao/_expo/static/css/tamagui-web-98bec9210a84cd5437930b103b377d5c.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/tamagui-web-98bec9210a84cd5437930b103b377d5c.css"><link rel="preload" href="/liu-yao/_expo/static/css/componentsMeiHuaGuatsx-9f8c4f5c064cfbd15c481014a5827788.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/componentsMeiHuaGuatsx-9f8c4f5c064cfbd15c481014a5827788.css"><link rel="preload" href="/liu-yao/_expo/static/css/componentsAllMeiHuaGuaFromLiuYaotsx-aa7500ce51139f7cac4b6cd04df5662f.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/componentsAllMeiHuaGuaFromLiuYaotsx-aa7500ce51139f7cac4b6cd04df5662f.css"><link rel="preload" href="/liu-yao/_expo/static/css/appdetailtsx-d2d4187adb85284a82f2f1658920eee1.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/appdetailtsx-d2d4187adb85284a82f2f1658920eee1.css"><link rel="preload" href="/liu-yao/_expo/static/css/apprecordstsx-0af468417e418fe7f2bba087ef0fed5d.css" as="style"><link rel="stylesheet" href="/liu-yao/_expo/static/css/apprecordstsx-0af468417e418fe7f2bba087ef0fed5d.css"><link rel="shortcut icon" href="/liu-yao/favicon.ico" /></head><body><div id="root"><div class="css-175oi2r r-13awgt0"><!--$--><!--/$--></div></div><script src="/liu-yao/_expo/static/js/web/index-a599ff9c8a312ddc2a2f905c04b7c673.js" defer></script>
+@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><link rel="preload" href="/_expo/static/css/apptabsallguatsx-6778a5ba0e0d7f58761b3996047e05e4.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apptabsallguatsx-6778a5ba0e0d7f58761b3996047e05e4.css"><link rel="preload" href="/_expo/static/css/apptabscalendartsx-369cd23014275f8cbb9b8a58888a4b58.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apptabscalendartsx-369cd23014275f8cbb9b8a58888a4b58.css"><link rel="preload" href="/_expo/static/css/apptabsclocktsx-f19032186afa80fdc4dd81ae876c38a9.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apptabsclocktsx-f19032186afa80fdc4dd81ae876c38a9.css"><link rel="preload" href="/_expo/static/css/componentsSelectYaotsx-fe2731bd3d095d0ea21d0c97531ac05f.css" as="style"><link rel="stylesheet" href="/_expo/static/css/componentsSelectYaotsx-fe2731bd3d095d0ea21d0c97531ac05f.css"><link rel="preload" href="/_expo/static/css/componentsSelectGuaBottomSheettsx-b0048f49bb5002ae67506c1407a5b29a.css" as="style"><link rel="stylesheet" href="/_expo/static/css/componentsSelectGuaBottomSheettsx-b0048f49bb5002ae67506c1407a5b29a.css"><link rel="preload" href="/_expo/static/css/apptabsindextsx-c94ce7c256efbfa0871993548f5d041c.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apptabsindextsx-c94ce7c256efbfa0871993548f5d041c.css"><link rel="preload" href="/_expo/static/css/apptabssongstsx-9a25ba8d1d66c3739f376cfeadd1a81b.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apptabssongstsx-9a25ba8d1d66c3739f376cfeadd1a81b.css"><link rel="preload" href="/_expo/static/css/tamagui-web-ff7a26d37d588935c10495a82960ec12.css" as="style"><link rel="stylesheet" href="/_expo/static/css/tamagui-web-ff7a26d37d588935c10495a82960ec12.css"><link rel="preload" href="/_expo/static/css/componentsMeiHuaGuatsx-52492dd5d497b35719f91d8dac61410f.css" as="style"><link rel="stylesheet" href="/_expo/static/css/componentsMeiHuaGuatsx-52492dd5d497b35719f91d8dac61410f.css"><link rel="preload" href="/_expo/static/css/componentsAllMeiHuaGuaFromLiuYaotsx-2030147b5e34b86a8344f6376dca686f.css" as="style"><link rel="stylesheet" href="/_expo/static/css/componentsAllMeiHuaGuaFromLiuYaotsx-2030147b5e34b86a8344f6376dca686f.css"><link rel="preload" href="/_expo/static/css/componentsdetailCollapsibleSectiontsx-fdadad9afc06dcf5ea125e35ce3c0f16.css" as="style"><link rel="stylesheet" href="/_expo/static/css/componentsdetailCollapsibleSectiontsx-fdadad9afc06dcf5ea125e35ce3c0f16.css"><link rel="preload" href="/_expo/static/css/appdetailtsx-cb6618d96b634ee3bfd9e0e274abd4c7.css" as="style"><link rel="stylesheet" href="/_expo/static/css/appdetailtsx-cb6618d96b634ee3bfd9e0e274abd4c7.css"><link rel="preload" href="/_expo/static/css/apprecordstsx-b582a901d044f25b61777d40fe49c57b.css" as="style"><link rel="stylesheet" href="/_expo/static/css/apprecordstsx-b582a901d044f25b61777d40fe49c57b.css"><link rel="shortcut icon" href="/favicon.ico" /></head><body><div id="root"><div class="css-175oi2r r-13awgt0"><!--$--><!--/$--></div></div><script src="/_expo/static/js/web/index-80dc170ae9947e64e5af60eedb5b3611.js" defer></script>
 </body></html>
