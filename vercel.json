@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "redirects": [
+    { "source": "/assets/node_modules/@tamagui/(.*)", "destination": "/assets/node_modules/%40tamagui/$1" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
