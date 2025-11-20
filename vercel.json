@@ -5,8 +5,8 @@
   "cleanUrls": true,
   "framework": null,
   "rewrites": [
-    {
-      "source": "/:path*",
+{
+      "source": "/(.*)",
       "destination": "/"
     }
   ]
